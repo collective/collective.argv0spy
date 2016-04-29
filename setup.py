@@ -11,7 +11,7 @@ version = '0.0.1dev0'
 
 setup(name='collective.argv0spy',
       version=version,
-      description="Change process title to show current urls being processed",
+      description='Change process title to show current urls being processed',
       long_description='\n\n'.join([
           read('README.rst'),
           read('CHANGELOG.rst'),
@@ -28,12 +28,11 @@ setup(name='collective.argv0spy',
       license='MIT',
       packages=find_packages('src'),
       package_dir={'': 'src'},
-      namespace_package=['thorn'],
+      namespace_package=['collective'],
       include_package_data=False,
       zip_safe=False,
       install_requires=[
           'setproctitle',
 
       ],
-      entry_points="",
       )
