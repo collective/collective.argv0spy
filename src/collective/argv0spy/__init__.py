@@ -2,6 +2,7 @@ from setproctitle import getproctitle
 from setproctitle import setproctitle
 
 import logging
+import os
 
 
 class ArgvHandler(logging.Handler):
@@ -9,7 +10,8 @@ class ArgvHandler(logging.Handler):
     original = ''
 
     def __init__(self):
-        self.original = getproctitle()
+        self.original = os.environ.get('SHORT_ZOPE_NAME', getproctitle())
+        self.original = 'yo zope'
         super(ArgvHandler, self).__init__()
 
     def emit(self, record):
