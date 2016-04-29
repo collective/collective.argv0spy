@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.0.2 (unreleased)
+0.1.0 (2016-04-30)
 ------------------
 
 - Add posibility to define an overall shorter name for the zope process.
