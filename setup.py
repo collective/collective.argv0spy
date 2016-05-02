@@ -29,7 +29,7 @@ setup(name='collective.argv0spy',
       packages=find_packages('src'),
       package_dir={'': 'src'},
       namespace_package=['collective'],
-      include_package_data=False,
+      include_package_data=True,
       zip_safe=False,
       install_requires=[
           'setproctitle',
