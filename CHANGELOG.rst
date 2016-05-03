@@ -4,7 +4,7 @@ Changelog
 0.1.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix another unfound issue in egg/wheel.
 
 
 0.1.1 (2016-05-02)
