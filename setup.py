@@ -7,7 +7,7 @@ import os
 def read(*paths):
     return open(os.path.join(os.path.dirname(__file__), *paths), 'r').read()
 
-version = '0.1.2.dev0'
+version = '0.1.2'
 
 setup(name='collective.argv0spy',
       version=version,
