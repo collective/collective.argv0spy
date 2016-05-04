@@ -4,7 +4,7 @@ Changelog
 0.1.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Remove embarrassing yo zope from package.
 
 
 0.1.2 (2016-05-03)

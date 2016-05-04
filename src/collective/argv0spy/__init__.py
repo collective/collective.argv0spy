@@ -11,7 +11,6 @@ class ArgvHandler(logging.Handler):
 
     def __init__(self):
         self.original = os.environ.get('SHORT_ZOPE_NAME', getproctitle())
-        self.original = 'yo zope'
         super(ArgvHandler, self).__init__()
 
     def emit(self, record):
